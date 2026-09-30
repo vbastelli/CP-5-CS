@@ -2,6 +2,12 @@
 
 Aplicação de console para cadastrar e gerenciar produtos em SQL Server LocalDB. O projeto demonstra as cinco operações CRUD com ADO.NET, comandos SQL parametrizados, mapeamento manual de `SqlDataReader`, validação de entradas, tratamento de exceções e registro das operações em arquivo.
 
+## Autor e apresentação
+
+- **Nome:** Victório Maia Bastelli
+- **RM:** 554723
+- **Vídeo da apresentação:** [https://youtu.be/7j4SM9B_TyU](https://youtu.be/7j4SM9B_TyU)
+
 ## Tecnologias utilizadas
 
 - C# e .NET 10;
@@ -135,13 +141,19 @@ O projeto `CheckpointProdutos.Tests` testa as validações de produto sem depend
 
 ## Prints para a entrega
 
-Coloque pelo menos três capturas reais na pasta `docs/prints/`. Sugestão:
+Os prints devem registrar a aplicação em execução no terminal e ficar na pasta `docs/prints/`. Para atender ao enunciado, devem ser incluídas pelo menos três capturas reais:
 
-1. `01-inserir.png` — inserção concluída com o ID gerado;
-2. `02-listar-buscar.png` — listagem ou busca exibindo os campos e o preço em reais;
-3. `03-atualizar-excluir.png` — atualização ou exclusão confirmada.
+1. `01-inserir.png` — tela da inserção, incluindo os dados informados e a mensagem com o ID gerado;
+2. `02-listar-buscar.png` — listagem ou busca mostrando ID, nome, preço em reais, estoque e categoria;
+3. `03-atualizar-excluir.png` — atualização concluída ou exclusão confirmada pelo usuário.
 
-Não há imagens fictícias no projeto: as capturas devem ser feitas durante a execução no computador do autor.
+Para capturar no Windows, execute a aplicação e use `Windows + Shift + S`, selecionando a região do terminal que contém a operação e a mensagem de sucesso. Não há imagens fictícias no projeto: as capturas devem ser feitas durante a execução no computador do autor.
+
+Comando para abrir a aplicação antes das capturas:
+
+```powershell
+dotnet run --project .\src\CheckpointProdutos\CheckpointProdutos.csproj
+```
 
 ## Roteiro sugerido para o vídeo (3 a 5 minutos)
 
