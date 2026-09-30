@@ -1,0 +1,19 @@
+# Compilação e IDE
+**/bin/
+**/obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Logs gerados pela aplicação
+**/Logs/
+*.log
+
+# Resultados de testes e cobertura
+TestResults/
+coverage/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
