@@ -141,19 +141,33 @@ O projeto `CheckpointProdutos.Tests` testa as validações de produto sem depend
 
 ## Prints para a entrega
 
-Os prints devem registrar a aplicação em execução no terminal e ficar na pasta `docs/prints/`. Para atender ao enunciado, devem ser incluídas pelo menos três capturas reais:
+As capturas reais da aplicação e dos testes estão disponíveis na pasta `docs/prints/`. Foram incluídos cinco registros de funcionamento, superando o mínimo de três solicitado no enunciado:
 
-1. `01-inserir.png` — tela da inserção, incluindo os dados informados e a mensagem com o ID gerado;
-2. `02-listar-buscar.png` — listagem ou busca mostrando ID, nome, preço em reais, estoque e categoria;
-3. `03-atualizar-excluir.png` — atualização concluída ou exclusão confirmada pelo usuário.
+1. `insercao-1.png` — inserção de produto concluída;
+2. `listar-2.png` — listagem dos produtos cadastrados;
+3. `atualizar-3.png` — atualização de produto concluída;
+4. `excluir-4.png` — exclusão de produto concluída;
+5. `testes.png` — execução dos testes unitários.
 
-Para capturar no Windows, execute a aplicação e use `Windows + Shift + S`, selecionando a região do terminal que contém a operação e a mensagem de sucesso. Não há imagens fictícias no projeto: as capturas devem ser feitas durante a execução no computador do autor.
+### Inserção de produto
 
-Comando para abrir a aplicação antes das capturas:
+![Inserção de produto](docs/prints/insercao-1.png)
 
-```powershell
-dotnet run --project .\src\CheckpointProdutos\CheckpointProdutos.csproj
-```
+### Listagem de produtos
+
+![Listagem de produtos](docs/prints/listar-2.png)
+
+### Atualização de produto
+
+![Atualização de produto](docs/prints/atualizar-3.png)
+
+### Exclusão de produto
+
+![Exclusão de produto](docs/prints/excluir-4.png)
+
+### Testes unitários
+
+![Testes unitários](docs/prints/testes.png)
 
 ## Roteiro sugerido para o vídeo (3 a 5 minutos)
 
